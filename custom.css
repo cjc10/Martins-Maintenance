@@ -1,0 +1,46 @@
+:root {
+    --brown: rgba(58, 28, 19, 0.884);
+    --brown2: rgb(109, 74, 29, 0.8);
+    --orange: rgba(212, 144, 17, 0.9);
+}
+
+.bg-brown {
+    background-color: var(--brown);
+  }
+
+.text-brown {
+    color:var(--brown);
+}
+
+  .bg-brown2 {
+    background-color: var(--brown2);
+  }
+
+  body {
+    background-image: url(./src-photos/background-crop.JPEG);
+    background-attachment:fixed;
+    background-size:cover;
+  }
+
+.text-orange {
+    color:var(--orange);
+}
+
+.secondary-header {
+    border-bottom-left-radius:15%;
+    border-bottom-right-radius:15%;    
+    border-bottom:2px inset var(--brown);
+    box-shadow:0px 0px 10px 1px var(--orange);
+}
+
+.facebook {
+  color:blue;
+}
+
+.instagram {
+  color:black;
+}
+
+.youtube {
+  color:red;
+}
