@@ -11,31 +11,30 @@
 </head>
 <body>
 
-    <!--contact-bar-top-->
+    <div class="page-container px-2 px-md-5 pb-2 pb-md-5">
 
-    <div class="page-container px-5 pb-5">
-        <div class="container-fluid mb-5">
-            <div class="row p-2" style="background-color:rgba(0,0,0,.33)">
+        <!--contact-bar-top-->
+
+        <div class="container-fluid mb-3 mb-md-5">
+            <div class="row p-2" style="background-color:rgba(0,0,0,.5)">
                 <div class="col">    
                     <a class="btn text-light" href="tel:3143544321">314-354-4321</a>            
                 </div>
                 <div class="col">
-                    <a class="btn text-light float-end" href="mailto:martinsmaintenance314@gmail.com">martinsmaintenance314@gmail.com</a>
+                    <a class="btn text-light float-sm-end" href="mailto:martinsmaintenance314@gmail.com">martinsmaintenance314@gmail.com</a>
                 </div>
             </div>
         </div>
 
         <!--logo-->
 
-        <div class="container-fluid row-cols-auto w-25 mb-5">
-            <div class="row">
-                    <img src="./src-photos/Mart-logo.jpg" alt="logo">                
-            </div>
+        <div class="container-fluid mb-3 mb-md-5">
+            <img class="row w-20 w-40 m-auto" src="./src-photos/Mart-logo.jpg" alt="logo">
         </div>
 
         <!--navbar-->
 
-        <nav class="navbar navbar-expand-sm navbar-dark p-2 bg-brown">
+        <nav class="navbar navbar-expand-sm navbar-dark p-2 bg-brown rounded-top">
             <a class="navbar-brand" href="#">Martin's Maintenance</a>
             <div class="d-flex">
                 <button class="d-lg-none navbar-toggler border border-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId"></button>
@@ -56,6 +55,9 @@
                             <a class="dropdown-item text-dark p-3 m-4" href="mailto:martinsmaintenance314@gmail.com">martinsmaintenance314@gmail.com</a>
                         </div>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#about-us">About-Us</a>
+                    </li>
                 </ul>
                 <div class="d-none d-md-block mx-3 btn btn-lg btn-group border-light bg-light p-1">
                     <a class="facebook" href="https://www.facebook.com/martinsmaintenance314/"><ion-icon name="logo-facebook"></ion-icon></a>
@@ -69,14 +71,14 @@
 
         <div class="col-auto align-items-center justify-content-center d-flex secondary-header bg-brown2"> 
                    
-                <h3 class="m-2 p-2 text-black">Landsculpting & Exterior Maintenance Services</h3>
+                <h5 class="m-2 p-1 p-md-2 text-black">Landsculpting & Exterior Maintenance Services</h5>
                       
         </div>
 
         <!--service-grid-->
 
         <div class="container" id="service-container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 m-5 m-0-lg">
+            <div class="row row-cols-2 row-cols-lg-3 g-3 m-5 m-0-lg">
                 <div class="col">
                 <div class="card bg-brown text-light">
                     <img src="./src-photos/lawnmowing.JPEG" class="card-img-top"
@@ -147,11 +149,15 @@
         </div>
 
             <!--about-us-->
-        <div class="container p-5 bg-brown2">
+        <div class="container p-5 bg-brown2 rounded-3" id="about-us">
             <div class="row-cols-1">
                 <div class="col text-black text-center">
                     <h2>About Us</h2>
-                    <p class="lead">My father and I believe in the value of providing hard work and outstanding service.</p>
+                    <p> Martin's Maintenance is a family-owned and operated landscaping company based out of Fenton, Missouri. We have been providing top-notch lawn and garden care services to the residents of St. Louis and the surrounding areas for many years.
+                        Our services include lawn mowing and trimming, aeration, sod installation, seeding, mulch and soil installation, rock bedding, landscaping, leaf and yard-waste management, and tree service.</p><p>We are equipped to handle all of your landscaping needs and are committed to delivering outstanding service and quality workmanship.                        
+                        Our team of experienced professionals are dedicated to creating beautiful, functional outdoor spaces that our customers can enjoy for years to come. We pride ourselves on our attention to detail and our ability to bring our customers' vision to life.                        
+                        We are fully insured, and use only the best equipment and materials to ensure that our work is of the highest standard. We strive to stay up-to-date with the latest techniques and trends in the industry, as well as looking for ways of improving our services to exceed expectations.  
+                        </p><p>Whether you're looking for regular lawn maintenance, landscaping services, or tree care, we have the expertise and experience to get the job done right. Contact us today to schedule an appointment and let us help you transform your outdoor space into a beautiful oasis.</p>
                 </div>
                 
                 <div class="col bg-light">
